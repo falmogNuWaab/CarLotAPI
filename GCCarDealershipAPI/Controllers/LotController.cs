@@ -72,7 +72,7 @@ namespace GCCarDealershipAPI.Controllers
                     (c.Make.ToLower() == keyword || c.Make.ToLower().Contains(keyword)) || 
                     (c.Model.ToLower() == keyword || c.Model.ToLower().Contains(keyword) || 
                     (year == keyword)))
-                    {
+                {
                     toReturn.Add(c);
                 }            
             }
